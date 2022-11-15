@@ -1,0 +1,16 @@
+src/main/java and src/test/java is the source file of maven project. src/main/java and src/test/java is create the dummy package
+so we don't need dummy package so i will delete it.
+
+	<dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.141.59</version>
+    </dependency>
+        
+Maven download the automatically jars file if we insert the above code in pom.xml and save it. 
+
+
+Maven is called build automation tool.
+
+
+In src/main/java, we will create the Java utility and In src/test/java, we will create the test cases
